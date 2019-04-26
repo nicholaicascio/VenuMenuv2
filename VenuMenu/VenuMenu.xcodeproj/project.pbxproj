@@ -16,6 +16,8 @@
 		E64544AC22727BC2002EDB88 /* VenuMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544AB22727BC2002EDB88 /* VenuMenuTests.swift */; };
 		E64544B722727BC2002EDB88 /* VenuMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544B622727BC2002EDB88 /* VenuMenuUITests.swift */; };
 		E64544C522728902002EDB88 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544C422728902002EDB88 /* MenuViewController.swift */; };
+		E64544C72272897D002EDB88 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544C62272897D002EDB88 /* Item.swift */; };
+		E64544CA22728BEC002EDB88 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E64544C922728BEC002EDB88 /* Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E64544B622727BC2002EDB88 /* VenuMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuMenuUITests.swift; sourceTree = "<group>"; };
 		E64544B822727BC2002EDB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E64544C422728902002EDB88 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E64544C62272897D002EDB88 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E64544C922728BEC002EDB88 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				E645449822727BC0002EDB88 /* ViewController.swift */,
 				E645449A22727BC0002EDB88 /* Main.storyboard */,
 				E64544C422728902002EDB88 /* MenuViewController.swift */,
+				E64544C822728990002EDB88 /* Data */,
 				E645449D22727BC2002EDB88 /* Assets.xcassets */,
 				E645449F22727BC2002EDB88 /* LaunchScreen.storyboard */,
 				E64544A222727BC2002EDB88 /* Info.plist */,
@@ -129,6 +134,15 @@
 				E64544B822727BC2002EDB88 /* Info.plist */,
 			);
 			path = VenuMenuUITests;
+			sourceTree = "<group>";
+		};
+		E64544C822728990002EDB88 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E64544C922728BEC002EDB88 /* Data.json */,
+				E64544C62272897D002EDB88 /* Item.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64544CA22728BEC002EDB88 /* Data.json in Resources */,
 				E645449722727BC0002EDB88 /* art.scnassets in Resources */,
 				E64544A122727BC2002EDB88 /* LaunchScreen.storyboard in Resources */,
 				E645449E22727BC2002EDB88 /* Assets.xcassets in Resources */,
@@ -263,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64544C72272897D002EDB88 /* Item.swift in Sources */,
 				E645449922727BC0002EDB88 /* ViewController.swift in Sources */,
 				E64544C522728902002EDB88 /* MenuViewController.swift in Sources */,
 				E645449522727BC0002EDB88 /* AppDelegate.swift in Sources */,

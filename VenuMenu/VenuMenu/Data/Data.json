@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Chicken Sandwich",
+        "price": 0,
+        "description": "$3.95"
+    }
+    ,
+    {
+        "name": "Chicken Minis",
+        "price": 0,
+        "description": "$3.95"
+    }
+    
+]
+ 
