@@ -13,6 +13,16 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    @IBOutlet weak var label: UILabel!
+    
+    func resetTrackingConfiguration() {
+        guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else { return }
+        let configuration = ARWorldTrackingConfiguration()
+        configuration.detectionImages = referenceImages
+        let options: ARSession.RunOptions = [.resetTracking, .removeExistingAnchors]
+        sceneView.session.run(configuration, options: options)
+        label.text = "Move camera around to detect images"
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +34,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        //let scene = SCNScene(named: "art.scnassets/ship.scn")!
         
         // Set the scene to the view
-        sceneView.scene = scene
+        //sceneView.scene = scene
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,6 +48,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
         // Run the view's session
         sceneView.session.run(configuration)
+        
+        resetTrackingConfiguration()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -46,7 +58,25 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Pause the view's session
         sceneView.session.pause()
     }
-
+ 
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        guard let imageAnchor = anchor as? ARImageAnchor else { return }
+        let referenceImage = imageAnchor.referenceImage
+        let imageName = referenceImage.name ?? "no name"
+        
+        let plane = SCNPlane(width: referenceImage.physicalSize.width, height: referenceImage.physicalSize.height)
+        let planeNode = SCNNode(geometry: plane)
+        planeNode.opacity = 0.20
+        planeNode.eulerAngles.x = -.pi / 2
+        
+        //planeNode.runAction(imageHighlightAction)
+        
+        node.addChildNode(planeNode)
+        DispatchQueue.main.async {
+            self.label.text = "Image detected: \"\(imageName)\""
+            self.performSegue(withIdentifier: "menuPopup", sender: nil)
+        }
+    }
     // MARK: - ARSCNViewDelegate
     
 /*
