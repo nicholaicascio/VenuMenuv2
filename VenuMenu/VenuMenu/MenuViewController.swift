@@ -12,30 +12,21 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     @IBOutlet var tableView: UITableView!
     
-    var items = [Item]()
+    private let menuCaretaker = MenuCaretaker()
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        parseItems()
+    private var menus : [ItemGroup]{
+        return menuCaretaker.itemGroups
     }
     
-    func parseItems(){
-        let url = Bundle.main.url(forResource:"Data", withExtension: "json")!
-        let jsonData = try! Data(contentsOf: url)
-        self.items = try! JSONDecoder().decode([Item].self, from: jsonData)
-        print(items.count)
-        self.tableView.reloadData()
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return menus.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")!
-        let item = items[indexPath.row]
-        cell.textLabel!.text = item.ItemName
-        let priceString: String = "\(item.ItemPrice)"
+        let menu = menus[indexPath.row]
+        cell.textLabel!.text = menu.Name
+        let priceString: String = "\(menu.Description)"
         cell.detailTextLabel?.text = priceString
         return cell
     }
@@ -46,7 +37,6 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 }

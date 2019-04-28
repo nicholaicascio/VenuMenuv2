@@ -1,207 +1,200 @@
 [
     {
-        "name":"Chick-Fil-A Menu",
-        "description":"This is the menu for Chick-Fil-A",
-        "picture":"Missing",
-        "itemGroups":[
+        "Name":"Breakfast",
+        "Description":"Breakfast menu son!",
+        "Picture":"Missing",
+        "items":[
             {
-                "Name":"Breakfast",
-                "Description":"Breakfast menu son!",
-                "Picture":"Missing",
-                "items":[
+                "ItemName":"Chick-fil-A Chicken Biscuit",
+                "ItemPrice":3.59,
+                "Specialization":[
                     {
-                        "ItemName":"Chick-fil-A Chicken Biscuit",
-                        "ItemPrice":3.59,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Pickles",
-                                "SpecializationPrice":0.00
-                            }
-                        ]
-                    },
-                    {
-                        "ItemName":"Chick-n-Minis",
-                        "ItemPrice":3.59,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Pickles",
-                                "SpecializationPrice":0.00
-                            }
-                        ]
-                    },
-                    {
-                        "ItemName":"Egg White Grill",
-                        "ItemPrice":3.95
-                    },
-                    {
-                        "ItemName":"Bacon, Egg & Cheese Buscuit",
-                        "ItemPrice":3.09
-                    },
-                    {
-                        "ItemName":"Buttered Biscuit",
-                        "ItemPrice":1.09
-                    },
-                    {
-                        "ItemName":"Sunflower Multigrain Bagel",
-                        "ItemPrice":2.05
-                    },
-                    {
-                        "ItemName":"Hash Browns",
-                        "ItemPrice":1.05
-                    },
-                    {
-                        "ItemName":"Greek Yogurt Parfait",
-                        "ItemPrice":2.95
+                        "SpecializationName":"Pickles",
+                        "SpecializationPrice":0.00
                     }
                 ]
             },
             {
-                "Name":"Drinks",
-                "Description":"Drinks menu boi!",
-                "Picture":"Missing",
-                "items":[
+                "ItemName":"Chick-n-Minis",
+                "ItemPrice":3.59,
+                "Specialization":[
                     {
-                        "ItemName":"Freshly-Brewed Iced Tea Sweetened",
-                        "ItemPrice":1.79
-                    },
-                    {
-                        "ItemName":"Chick-fil-A Lemonade",
-                        "ItemPrice":2.09
-                    },
-                    {
-                        "ItemName":"Soft Drink",
-                        "ItemPrice":1.79
-                    },
-                    {
-                        "ItemName":"DASANI Bottled Water",
-                        "ItemPrice":1.79
-                    },
-                    {
-                        "ItemName":"Simply Orange",
-                        "ItemPrice":2.55
-                    },
-                    {
-                        "ItemName":"1% Chocolate Milk",
-                        "ItemPrice":1.39
-                    },
-                    {
-                        "ItemName":"1% White Milk",
-                        "ItemPrice":1.39
-                    },
-                    {
-                        "ItemName":"Coffee",
-                        "ItemPrice":1.85,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Sugar",
-                                "SpecializationDescription":"Sugar",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"Creamer",
-                                "SpecializationDescription":"Creamer",
-                                "SpecializationPrice":0.00
-                            }
-                        ]
-                    },
-                    {
-                        "ItemName":"Iced Coffee",
-                        "ItemPrice":2.75,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Sugar",
-                                "SpecializationDescription":"Sugar",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"Creamer",
-                                "SpecializationDescription":"Creamer",
-                                "SpecializationPrice":0.00
-                            }
-                        ]
+                        "SpecializationName":"Pickles",
+                        "SpecializationPrice":0.00
                     }
                 ]
             },
             {
-                "Name":"Entrees",
-                "Description":"Entrees menu child!",
-                "Picture":"Missing",
-                "items":[
+                "ItemName":"Egg White Grill",
+                "ItemPrice":3.95
+            },
+            {
+                "ItemName":"Bacon, Egg & Cheese Buscuit",
+                "ItemPrice":3.09
+            },
+            {
+                "ItemName":"Buttered Biscuit",
+                "ItemPrice":1.09
+            },
+            {
+                "ItemName":"Sunflower Multigrain Bagel",
+                "ItemPrice":2.05
+            },
+            {
+                "ItemName":"Hash Browns",
+                "ItemPrice":1.05
+            },
+            {
+                "ItemName":"Greek Yogurt Parfait",
+                "ItemPrice":2.95
+            }
+        ]
+    },
+    {
+        "Name":"Drinks",
+        "Description":"Drinks menu boi!",
+        "Picture":"Missing",
+        "items":[
+            {
+                "ItemName":"Freshly-Brewed Iced Tea Sweetened",
+                "ItemPrice":1.79
+            },
+            {
+                "ItemName":"Chick-fil-A Lemonade",
+                "ItemPrice":2.09
+            },
+            {
+                "ItemName":"Soft Drink",
+                "ItemPrice":1.79
+            },
+            {
+                "ItemName":"DASANI Bottled Water",
+                "ItemPrice":1.79
+            },
+            {
+                "ItemName":"Simply Orange",
+                "ItemPrice":2.55
+            },
+            {
+                "ItemName":"1% Chocolate Milk",
+                "ItemPrice":1.39
+            },
+            {
+                "ItemName":"1% White Milk",
+                "ItemPrice":1.39
+            },
+            {
+                "ItemName":"Coffee",
+                "ItemPrice":1.85,
+                "Specialization":[
                     {
-                        "ItemName":"Chick-fil-A Chicken Sandwich",
-                        "ItemPrice":3.79,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Pickles",
-                                "SpecializationPrice":0.00
-                            }
-                        ]
+                        "SpecializationName":"Sugar",
+                        "SpecializationDescription":"Sugar",
+                        "SpecializationPrice":0.00
                     },
                     {
-                        "ItemName":"Chick-fil-A Deluxe Sandwich",
-                        "ItemPrice":4.09,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Pickles",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"Lettuce",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"Tomato",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"American Cheese",
-                                "SpecializationPrice":0.30
-                            },
-                            {
-                                "SpecializationName":"Pepper Jack Cheese",
-                                "SpecializationPrice":0.30
-                            }
-                        ]
+                        "SpecializationName":"Creamer",
+                        "SpecializationDescription":"Creamer",
+                        "SpecializationPrice":0.00
+                    }
+                ]
+            },
+            {
+                "ItemName":"Iced Coffee",
+                "ItemPrice":2.75,
+                "Specialization":[
+                    {
+                        "SpecializationName":"Sugar",
+                        "SpecializationDescription":"Sugar",
+                        "SpecializationPrice":0.00
                     },
                     {
-                        "ItemName":"Chick-fil-A Chicken Sandwich",
-                        "ItemPrice":4.09,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Pickles",
-                                "SpecializationPrice":0.00
-                            }
-                        ]
+                        "SpecializationName":"Creamer",
+                        "SpecializationDescription":"Creamer",
+                        "SpecializationPrice":0.00
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name":"Entrees",
+        "Description":"Entrees menu child!",
+        "Picture":"Missing",
+        "items":[
+            {
+                "ItemName":"Chick-fil-A Chicken Sandwich",
+                "ItemPrice":3.79,
+                "Specialization":[
+                    {
+                        "SpecializationName":"Pickles",
+                        "SpecializationPrice":0.00
+                    }
+                ]
+            },
+            {
+                "ItemName":"Chick-fil-A Deluxe Sandwich",
+                "ItemPrice":4.09,
+                "Specialization":[
+                    {
+                        "SpecializationName":"Pickles",
+                        "SpecializationPrice":0.00
                     },
                     {
-                        "ItemName":"Spicy Deluxe Sandwich",
-                        "ItemPrice":4.39,
-                        "Specialization":[
-                            {
-                                "SpecializationName":"Pickles",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"Lettuce",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"Tomato",
-                                "SpecializationPrice":0.00
-                            },
-                            {
-                                "SpecializationName":"American Cheese",
-                                "SpecializationPrice":0.30
-                            },
-                            {
-                                "SpecializationName":"Colby Jack Cheese",
-                                "SpecializationPrice":0.30
-                            },
-                            {
-                                "SpecializationName":"Pepper Jack Cheese",
-                                "SpecializationPrice":0.30
-                            }
-                        ]
+                        "SpecializationName":"Lettuce",
+                        "SpecializationPrice":0.00
+                    },
+                    {
+                        "SpecializationName":"Tomato",
+                        "SpecializationPrice":0.00
+                    },
+                    {
+                        "SpecializationName":"American Cheese",
+                        "SpecializationPrice":0.30
+                    },
+                    {
+                        "SpecializationName":"Pepper Jack Cheese",
+                        "SpecializationPrice":0.30
+                    }
+                ]
+            },
+            {
+                "ItemName":"Chick-fil-A Chicken Sandwich",
+                "ItemPrice":4.09,
+                "Specialization":[
+                    {
+                        "SpecializationName":"Pickles",
+                        "SpecializationPrice":0.00
+                    }
+                ]
+            },
+            {
+                "ItemName":"Spicy Deluxe Sandwich",
+                "ItemPrice":4.39,
+                "Specialization":[
+                    {
+                        "SpecializationName":"Pickles",
+                        "SpecializationPrice":0.00
+                    },
+                    {
+                        "SpecializationName":"Lettuce",
+                        "SpecializationPrice":0.00
+                    },
+                    {
+                        "SpecializationName":"Tomato",
+                        "SpecializationPrice":0.00
+                    },
+                    {
+                        "SpecializationName":"American Cheese",
+                        "SpecializationPrice":0.30
+                    },
+                    {
+                        "SpecializationName":"Colby Jack Cheese",
+                        "SpecializationPrice":0.30
+                    },
+                    {
+                        "SpecializationName":"Pepper Jack Cheese",
+                        "SpecializationPrice":0.30
                     }
                 ]
             }

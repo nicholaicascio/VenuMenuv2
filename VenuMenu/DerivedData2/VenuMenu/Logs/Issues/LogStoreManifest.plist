@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>F84EA5FA-58C0-499B-A8ED-BD8CE2DED0F8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>F84EA5FA-58C0-499B-A8ED-BD8CE2DED0F8.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>VenuMenu-bsoxujzzyrzzhhdcjmatmdarbzyf</string>
+			<key>timeStartedRecording</key>
+			<real>578183050.69527805</real>
+			<key>timeStoppedRecording</key>
+			<real>578183052.02891397</real>
+			<key>title</key>
+			<string>Build target VenuMenu</string>
+			<key>uniqueIdentifier</key>
+			<string>F84EA5FA-58C0-499B-A8ED-BD8CE2DED0F8</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

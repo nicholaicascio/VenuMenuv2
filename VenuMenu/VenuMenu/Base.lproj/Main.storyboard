@@ -87,8 +87,8 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="nrn-Or-GIS" id="f8u-pa-DN7"/>
-                            <outlet property="delegate" destination="nrn-Or-GIS" id="FXV-iC-K6N"/>
+                            <outlet property="dataSource" destination="nrn-Or-GIS" id="Cuw-Dx-yus"/>
+                            <outlet property="delegate" destination="nrn-Or-GIS" id="We2-Zf-mfr"/>
                         </connections>
                     </tableView>
                     <connections>
