@@ -93,11 +93,27 @@
                     </tableView>
                     <connections>
                         <outlet property="tableView" destination="TXW-qJ-Ym1" id="x0h-JR-7h9"/>
+                        <segue destination="opt-vY-m2j" kind="show" identifier="pushSpecialization" id="nWR-Wi-4dH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Yn-7t-LiH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="873.91304347826099" y="27.717391304347828"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="a3D-MX-Hdc">
+            <objects>
+                <viewController id="opt-vY-m2j" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kow-eL-3kL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5xV-rK-jh4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3X-f5-NBT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1758" y="28"/>
         </scene>
     </scenes>
 </document>
