@@ -6,42 +6,42 @@
  */
 
 public class Item: Decodable{
-    public let name: String         //Name of the item - Constant
-    public let price: Float         //Price of the item - Constant
-    public let description: String  //Description of the item - Constant
-    //public let picture: String?     //String name of the image this should link to - Constant
-    //public var specializations: [Specialization]    //An array of specializations
+    public let ItemName: String         //Name of the item - Constant
+    public let ItemPrice: Float         //Price of the item - Constant
+    public let Description: String?  //Description of the item - Constant
+    public let Picture: String?     //String name of the image this should link to - Constant
+    public var Specialization: [Specialization]?    //An array of specializations
     
     public init(name: String, price: Float, description: String, picture: String?){
-        self.name = name
-        self.price = price
-        self.description = description
-        //self.picture = picture
-        //self.specializations = []
+        self.ItemName = name
+        self.ItemPrice = price
+        self.Description = description
+        self.Picture = picture
+        self.Specialization = []
     }
     
     /**
      This will return the value of the item, and all specializations
      */
-    /*public func GetTotalPrice() -> Float{
-     return self.price + GetSpecializationTotal()
-     }*/
+    public func GetTotalPrice() -> Float{
+            return self.ItemPrice + GetSpecializationTotal()
+    }
     
     /**
      This will get the value of all the specializations for this item, and return that value.
      */
-    /*public func GetSpecializationTotal() -> Float{
-     var total: Float = 0.00
-     specializations.forEach{
-     total += $0.GetPrice()
-     }
-     return total
-     }
-     
-     /**
+    public func GetSpecializationTotal() -> Float{
+        var total: Float = 0.00
+        Specialization!.forEach{
+            total += $0.GetPrice()
+        }
+        return total
+    }
+    
+    /**
      This will add a specialization to the speccializations array.
-     */
-     public func AddSpecialization(specialization: Specialization){
-     specializations.append(specialization)
-     }*/
+    */
+    public func AddSpecialization(specialization: Specialization){
+        Specialization!.append(specialization)
+    }
 }

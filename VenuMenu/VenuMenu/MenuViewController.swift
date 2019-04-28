@@ -34,13 +34,15 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")!
         let item = items[indexPath.row]
-        cell.textLabel!.text = item.name
-        cell.detailTextLabel?.text = item.description
+        cell.textLabel!.text = item.ItemName
+        let priceString: String = "\(item.ItemPrice)"
+        cell.detailTextLabel?.text = priceString
         return cell
     }
     
-    
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showSpecialization", sender: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

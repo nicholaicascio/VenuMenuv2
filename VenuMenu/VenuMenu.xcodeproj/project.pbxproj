@@ -16,8 +16,15 @@
 		E64544AC22727BC2002EDB88 /* VenuMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544AB22727BC2002EDB88 /* VenuMenuTests.swift */; };
 		E64544B722727BC2002EDB88 /* VenuMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544B622727BC2002EDB88 /* VenuMenuUITests.swift */; };
 		E64544C522728902002EDB88 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544C422728902002EDB88 /* MenuViewController.swift */; };
-		E64544C72272897D002EDB88 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544C62272897D002EDB88 /* Item.swift */; };
 		E64544CA22728BEC002EDB88 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E64544C922728BEC002EDB88 /* Data.json */; };
+		E64544D322764764002EDB88 /* MenuCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544CB22764763002EDB88 /* MenuCaretaker.swift */; };
+		E64544D422764764002EDB88 /* Specialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544CC22764764002EDB88 /* Specialization.swift */; };
+		E64544D522764764002EDB88 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544CD22764764002EDB88 /* Order.swift */; };
+		E64544D622764764002EDB88 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544CE22764764002EDB88 /* Menu.swift */; };
+		E64544D722764764002EDB88 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544CF22764764002EDB88 /* Item.swift */; };
+		E64544D822764764002EDB88 /* ItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544D022764764002EDB88 /* ItemGroup.swift */; };
+		E64544D922764764002EDB88 /* ChickFilAMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = E64544D122764764002EDB88 /* ChickFilAMenu.json */; };
+		E64544DA22764764002EDB88 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E64544D222764764002EDB88 /* Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +60,15 @@
 		E64544B622727BC2002EDB88 /* VenuMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuMenuUITests.swift; sourceTree = "<group>"; };
 		E64544B822727BC2002EDB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E64544C422728902002EDB88 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		E64544C62272897D002EDB88 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E64544C922728BEC002EDB88 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		E64544CB22764763002EDB88 /* MenuCaretaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCaretaker.swift; sourceTree = "<group>"; };
+		E64544CC22764764002EDB88 /* Specialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specialization.swift; sourceTree = "<group>"; };
+		E64544CD22764764002EDB88 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E64544CE22764764002EDB88 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E64544CF22764764002EDB88 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E64544D022764764002EDB88 /* ItemGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemGroup.swift; sourceTree = "<group>"; };
+		E64544D122764764002EDB88 /* ChickFilAMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChickFilAMenu.json; sourceTree = "<group>"; };
+		E64544D222764764002EDB88 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +153,15 @@
 		E64544C822728990002EDB88 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E64544D122764764002EDB88 /* ChickFilAMenu.json */,
+				E64544D222764764002EDB88 /* Data.json */,
+				E64544CF22764764002EDB88 /* Item.swift */,
+				E64544D022764764002EDB88 /* ItemGroup.swift */,
+				E64544CE22764764002EDB88 /* Menu.swift */,
+				E64544CB22764763002EDB88 /* MenuCaretaker.swift */,
+				E64544CD22764764002EDB88 /* Order.swift */,
+				E64544CC22764764002EDB88 /* Specialization.swift */,
 				E64544C922728BEC002EDB88 /* Data.json */,
-				E64544C62272897D002EDB88 /* Item.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -252,6 +273,8 @@
 				E64544CA22728BEC002EDB88 /* Data.json in Resources */,
 				E645449722727BC0002EDB88 /* art.scnassets in Resources */,
 				E64544A122727BC2002EDB88 /* LaunchScreen.storyboard in Resources */,
+				E64544D922764764002EDB88 /* ChickFilAMenu.json in Resources */,
+				E64544DA22764764002EDB88 /* Data.json in Resources */,
 				E645449E22727BC2002EDB88 /* Assets.xcassets in Resources */,
 				E645449C22727BC0002EDB88 /* Main.storyboard in Resources */,
 			);
@@ -278,10 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64544C72272897D002EDB88 /* Item.swift in Sources */,
+				E64544D722764764002EDB88 /* Item.swift in Sources */,
+				E64544D822764764002EDB88 /* ItemGroup.swift in Sources */,
+				E64544D322764764002EDB88 /* MenuCaretaker.swift in Sources */,
+				E64544D622764764002EDB88 /* Menu.swift in Sources */,
+				E64544D422764764002EDB88 /* Specialization.swift in Sources */,
 				E645449922727BC0002EDB88 /* ViewController.swift in Sources */,
 				E64544C522728902002EDB88 /* MenuViewController.swift in Sources */,
 				E645449522727BC0002EDB88 /* AppDelegate.swift in Sources */,
+				E64544D522764764002EDB88 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

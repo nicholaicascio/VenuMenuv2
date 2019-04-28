@@ -93,7 +93,7 @@
                     </tableView>
                     <connections>
                         <outlet property="tableView" destination="TXW-qJ-Ym1" id="x0h-JR-7h9"/>
-                        <segue destination="opt-vY-m2j" kind="show" identifier="pushSpecialization" id="nWR-Wi-4dH"/>
+                        <segue destination="opt-vY-m2j" kind="show" identifier="showSpecialization" id="IZv-CL-lqG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Yn-7t-LiH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -107,13 +107,27 @@
                     <view key="view" contentMode="scaleToFill" id="kow-eL-3kL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQH-tX-wzI">
+                                <rect key="frame" x="135" y="358" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IQH-tX-wzI" firstAttribute="leading" secondItem="5xV-rK-jh4" secondAttribute="leading" constant="135" id="87Z-KJ-AME"/>
+                            <constraint firstItem="5xV-rK-jh4" firstAttribute="bottom" secondItem="IQH-tX-wzI" secondAttribute="bottom" constant="357" id="bc0-CO-VH7"/>
+                            <constraint firstItem="5xV-rK-jh4" firstAttribute="trailing" secondItem="IQH-tX-wzI" secondAttribute="trailing" constant="186" id="vpE-of-4qy"/>
+                            <constraint firstItem="IQH-tX-wzI" firstAttribute="top" secondItem="5xV-rK-jh4" secondAttribute="top" constant="338" id="zDF-cW-Z0j"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5xV-rK-jh4"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K3X-f5-NBT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1758" y="28"/>
+            <point key="canvasLocation" x="1757.9710144927537" y="27.717391304347828"/>
         </scene>
     </scenes>
 </document>
