@@ -13,7 +13,7 @@ public final class MenuCaretaker{
     public static let encoder = JSONEncoder()
     private let fileName = "Data"
     //private let fileName = "MiniMenu"
-    public var itemGroups: [ItemGroup] = []
+    public var items: [Item] = []
     
     // 1 - Retrive via file name
     public static func retrieve<T: Decodable>(_ type: T.Type, from fileName: String) throws -> T{
@@ -59,7 +59,7 @@ public final class MenuCaretaker{
         let bundle = Bundle.main
         let url = bundle.url(forResource: fileName,
                              withExtension: "json")!
-        self.itemGroups = try! MenuCaretaker.retrieve([ItemGroup].self, from: url)
+        self.items = try! MenuCaretaker.retrieve([Item].self, from: url)
 
     }
 }

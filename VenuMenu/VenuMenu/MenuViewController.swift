@@ -14,8 +14,8 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     private let menuCaretaker = MenuCaretaker()
     
-    private var menus : [ItemGroup]{
-        return menuCaretaker.itemGroups
+    private var menus : [Item]{
+        return menuCaretaker.items
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
@@ -25,8 +25,8 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")!
         let menu = menus[indexPath.row]
-        cell.textLabel!.text = menu.Name
-        let priceString: String = "\(menu.Description)"
+        cell.textLabel!.text = menu.ItemName
+        let priceString: String = "\(menu.ItemPrice)"
         cell.detailTextLabel?.text = priceString
         return cell
     }
