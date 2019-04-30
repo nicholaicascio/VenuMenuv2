@@ -32,7 +32,21 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showSpecialization", sender: nil)
+        performSegue(withIdentifier: "showSpecialization", sender: menus[indexPath.row])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let a: Item = sender as! Item
+        print(a.ItemName)
+        if segue.identifier == "showSpecialization" {
+            print("override")
+            if let itemName = segue.destination as? SpecializationsViewController,
+                let selectedItem: Item = sender as! Item {
+                itemName.selectedItem2 = selectedItem
+                print(selectedItem)
+
+            }
+        }
     }
     
     override func viewDidLoad() {

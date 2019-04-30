@@ -100,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="873.91304347826099" y="27.717391304347828"/>
         </scene>
-        <!--View Controller-->
+        <!--Specializations View Controller-->
         <scene sceneID="a3D-MX-Hdc">
             <objects>
-                <viewController id="opt-vY-m2j" sceneMemberID="viewController">
+                <viewController id="opt-vY-m2j" customClass="SpecializationsViewController" customModule="VenuMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kow-eL-3kL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
