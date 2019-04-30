@@ -13,11 +13,10 @@ class SpecializationsViewController: UIViewController {
     var selectedItem2: Item?
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let printThis: Item = selectedItem2 as! Item
-        print(printThis.ItemName)
+        print(printThis.ItemName as String)
         // Do any additional setup after loading the view.
     }
     
