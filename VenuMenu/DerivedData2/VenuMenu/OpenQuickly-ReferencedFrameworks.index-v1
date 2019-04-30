@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>SceneKit</string>
-	<string>XCTest</string>
 	<string>Foundation</string>
+	<string>ARKit</string>
+	<string>SceneKit</string>
 	<string>VenuMenu</string>
 	<string>UIKit</string>
-	<string>ARKit</string>
+	<string>XCTest</string>
 </array>
 </plist>

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>4F304082-9E8F-48DD-B526-A044BFECBF76</key>
+		<key>45646F50-9ABA-4220-A585-B12E7DE9F857</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4F304082-9E8F-48DD-B526-A044BFECBF76.xcactivitylog</string>
+			<string>45646F50-9ABA-4220-A585-B12E7DE9F857.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,13 +30,13 @@
 			<key>signature</key>
 			<string>Debug VenuMenu</string>
 			<key>timeStartedRecording</key>
-			<real>578193725.79776704</real>
+			<real>578288028.091308</real>
 			<key>timeStoppedRecording</key>
-			<real>578193776.84277701</real>
+			<real>578288450.59882903</real>
 			<key>title</key>
 			<string>Debug VenuMenu</string>
 			<key>uniqueIdentifier</key>
-			<string>4F304082-9E8F-48DD-B526-A044BFECBF76</string>
+			<string>45646F50-9ABA-4220-A585-B12E7DE9F857</string>
 		</dict>
 		<key>5973FD3E-71C7-4251-B47E-82C7DB1AAF77</key>
 		<dict>
@@ -70,7 +70,7 @@
 			<key>uniqueIdentifier</key>
 			<string>5973FD3E-71C7-4251-B47E-82C7DB1AAF77</string>
 		</dict>
-		<key>9D65538E-A4F9-4DEF-88D2-A1142363F01F</key>
+		<key>DBC79C8E-FAFC-43BF-B2DA-3FB5696B67FD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -79,7 +79,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>9D65538E-A4F9-4DEF-88D2-A1142363F01F.xcactivitylog</string>
+			<string>DBC79C8E-FAFC-43BF-B2DA-3FB5696B67FD.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -94,13 +94,13 @@
 			<key>signature</key>
 			<string>Debug VenuMenu</string>
 			<key>timeStartedRecording</key>
-			<real>578183052.77103806</real>
+			<real>578288454.94620895</real>
 			<key>timeStoppedRecording</key>
-			<real>578183069.587798</real>
+			<real>578288492.29319</real>
 			<key>title</key>
 			<string>Debug VenuMenu</string>
 			<key>uniqueIdentifier</key>
-			<string>9D65538E-A4F9-4DEF-88D2-A1142363F01F</string>
+			<string>DBC79C8E-FAFC-43BF-B2DA-3FB5696B67FD</string>
 		</dict>
 	</dict>
 </dict>
