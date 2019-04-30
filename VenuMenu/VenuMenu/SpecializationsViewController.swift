@@ -11,6 +11,7 @@ import UIKit
 class SpecializationsViewController: UIViewController {
 
     var item: Item?
+    public let orderList = Order.order
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
@@ -20,12 +21,16 @@ class SpecializationsViewController: UIViewController {
     }
     
     @IBAction func addButton(_ sender: Any) {
-        
+        orderList.AddItem(item: item!)
+        for item in orderList.items{
+            print(item.ItemName)
+        }
+        performSegue(withIdentifier: "backToMenu", sender: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(item!.ItemName)
+        //print(item!.ItemName)
         nameLabel.text = item!.ItemName
         descriptionLabel.text = item!.Description
         priceLabel.text = "\(item!.ItemPrice)"
