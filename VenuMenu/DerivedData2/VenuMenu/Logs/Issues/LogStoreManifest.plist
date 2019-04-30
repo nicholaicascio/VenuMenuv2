@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1CE4C232-D2D8-43C3-BF05-084B3D53B6C3</key>
+		<key>99E765CA-8E40-4218-9C89-801DD98C16D0</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>1CE4C232-D2D8-43C3-BF05-084B3D53B6C3.xcactivitylog</string>
+			<string>99E765CA-8E40-4218-9C89-801DD98C16D0.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -24,13 +24,13 @@
 			<key>signature</key>
 			<string>VenuMenu-bsoxujzzyrzzhhdcjmatmdarbzyf</string>
 			<key>timeStartedRecording</key>
-			<real>578293224.82075906</real>
+			<real>578293421.71887898</real>
 			<key>timeStoppedRecording</key>
-			<real>578293237.69816899</real>
+			<real>578293432.316751</real>
 			<key>title</key>
 			<string>Build target VenuMenu</string>
 			<key>uniqueIdentifier</key>
-			<string>1CE4C232-D2D8-43C3-BF05-084B3D53B6C3</string>
+			<string>99E765CA-8E40-4218-9C89-801DD98C16D0</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
