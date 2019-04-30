@@ -33,7 +33,8 @@ class SpecializationsViewController: UIViewController {
         //print(item!.ItemName)
         nameLabel.text = item!.ItemName
         descriptionLabel.text = item!.Description
-        priceLabel.text = "\(item!.ItemPrice)"
+//        priceLabel.text = "\(item!.ItemPrice)"
+        priceLabel.text = item!.Display
         // Do any additional setup after loading the view.
     }
     

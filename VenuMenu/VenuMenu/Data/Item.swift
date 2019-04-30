@@ -32,7 +32,8 @@ public class Item: Decodable{
      */
     public func GetSpecializationTotal() -> Float{
         var total: Float = 0.00
-        Specialization!.forEach{
+        guard let items = Specialization else { return total}
+        items.forEach{
             total += $0.GetPrice()
         }
         return total
