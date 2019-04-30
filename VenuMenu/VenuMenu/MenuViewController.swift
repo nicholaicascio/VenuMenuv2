@@ -47,7 +47,7 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if segue.identifier == "showSpecialization" {
             //the page we are going to is the "SpecializationsViewController"
             if let specialization = segue.destination as? SpecializationsViewController,
-                //the sender is the "Item"" associated with that specific menus[indexPath.row] of the cell we clicked
+                //the sender is the "Item"l" associated with that specific menus[indexPath.row] of the cell we clicked
                 let selectedItem: Item = sender as? Item {
                 //inside the "SpecializationsViewController" we are setting the "item"
                 specialization.item = selectedItem

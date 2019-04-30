@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62380F2227912870077FEFE /* ResponsesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62380F1227912870077FEFE /* ResponsesViewController.swift */; };
 		E645449522727BC0002EDB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645449422727BC0002EDB88 /* AppDelegate.swift */; };
 		E645449722727BC0002EDB88 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E645449622727BC0002EDB88 /* art.scnassets */; };
 		E645449922727BC0002EDB88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645449822727BC0002EDB88 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E62380F1227912870077FEFE /* ResponsesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesViewController.swift; sourceTree = "<group>"; };
 		E645449122727BC0002EDB88 /* VenuMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenuMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E645449422727BC0002EDB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E645449622727BC0002EDB88 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				E645449622727BC0002EDB88 /* art.scnassets */,
 				E645449822727BC0002EDB88 /* ViewController.swift */,
 				E645449A22727BC0002EDB88 /* Main.storyboard */,
+				E62380F1227912870077FEFE /* ResponsesViewController.swift */,
 				E64544DF227818EA002EDB88 /* OrderViewController.swift */,
 				E64544C422728902002EDB88 /* MenuViewController.swift */,
 				E64544DB2277EA77002EDB88 /* SpecializationsViewController.swift */,
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64544D722764764002EDB88 /* Item.swift in Sources */,
+				E62380F2227912870077FEFE /* ResponsesViewController.swift in Sources */,
 				E64544D822764764002EDB88 /* ItemGroup.swift in Sources */,
 				E64544D322764764002EDB88 /* MenuCaretaker.swift in Sources */,
 				E64544D622764764002EDB88 /* Menu.swift in Sources */,
