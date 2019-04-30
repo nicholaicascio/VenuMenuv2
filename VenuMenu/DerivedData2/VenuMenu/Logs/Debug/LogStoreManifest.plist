@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>45646F50-9ABA-4220-A585-B12E7DE9F857</key>
+		<key>23AC6809-EDB4-41FF-BA4F-DCE9D1E4EB0A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>45646F50-9ABA-4220-A585-B12E7DE9F857.xcactivitylog</string>
+			<string>23AC6809-EDB4-41FF-BA4F-DCE9D1E4EB0A.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,15 +30,15 @@
 			<key>signature</key>
 			<string>Debug VenuMenu</string>
 			<key>timeStartedRecording</key>
-			<real>578288028.091308</real>
+			<real>578291227.91697598</real>
 			<key>timeStoppedRecording</key>
-			<real>578288450.59882903</real>
+			<real>578291265.05739999</real>
 			<key>title</key>
 			<string>Debug VenuMenu</string>
 			<key>uniqueIdentifier</key>
-			<string>45646F50-9ABA-4220-A585-B12E7DE9F857</string>
+			<string>23AC6809-EDB4-41FF-BA4F-DCE9D1E4EB0A</string>
 		</dict>
-		<key>5973FD3E-71C7-4251-B47E-82C7DB1AAF77</key>
+		<key>7466D250-6426-4A60-B5E1-4E36201BF8BF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -47,7 +47,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5973FD3E-71C7-4251-B47E-82C7DB1AAF77.xcactivitylog</string>
+			<string>7466D250-6426-4A60-B5E1-4E36201BF8BF.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -62,13 +62,141 @@
 			<key>signature</key>
 			<string>Debug VenuMenu</string>
 			<key>timeStartedRecording</key>
-			<real>578193855.58230698</real>
+			<real>578290672.27765405</real>
 			<key>timeStoppedRecording</key>
-			<real>578193886.402794</real>
+			<real>578290707.48797798</real>
 			<key>title</key>
 			<string>Debug VenuMenu</string>
 			<key>uniqueIdentifier</key>
-			<string>5973FD3E-71C7-4251-B47E-82C7DB1AAF77</string>
+			<string>7466D250-6426-4A60-B5E1-4E36201BF8BF</string>
+		</dict>
+		<key>7E6531E0-2C0A-4F42-9952-23F4C30B57DE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7E6531E0-2C0A-4F42-9952-23F4C30B57DE.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VenuMenu project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VenuMenu</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug VenuMenu</string>
+			<key>timeStartedRecording</key>
+			<real>578292058.18396902</real>
+			<key>timeStoppedRecording</key>
+			<real>578292126.14685905</real>
+			<key>title</key>
+			<string>Debug VenuMenu</string>
+			<key>uniqueIdentifier</key>
+			<string>7E6531E0-2C0A-4F42-9952-23F4C30B57DE</string>
+		</dict>
+		<key>87982E6E-70B3-4F18-A4A6-E22AC95A1B44</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>87982E6E-70B3-4F18-A4A6-E22AC95A1B44.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VenuMenu project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VenuMenu</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug VenuMenu</string>
+			<key>timeStartedRecording</key>
+			<real>578290637.60020196</real>
+			<key>timeStoppedRecording</key>
+			<real>578290671.19036806</real>
+			<key>title</key>
+			<string>Debug VenuMenu</string>
+			<key>uniqueIdentifier</key>
+			<string>87982E6E-70B3-4F18-A4A6-E22AC95A1B44</string>
+		</dict>
+		<key>9D82DA18-77E6-41D0-B1C5-0F20857DD54F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9D82DA18-77E6-41D0-B1C5-0F20857DD54F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VenuMenu project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VenuMenu</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug VenuMenu</string>
+			<key>timeStartedRecording</key>
+			<real>578290726.76667905</real>
+			<key>timeStoppedRecording</key>
+			<real>578291049.01604998</real>
+			<key>title</key>
+			<string>Debug VenuMenu</string>
+			<key>uniqueIdentifier</key>
+			<string>9D82DA18-77E6-41D0-B1C5-0F20857DD54F</string>
+		</dict>
+		<key>A8D0B66A-21DB-42B1-BAFC-6CBB97515DC3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A8D0B66A-21DB-42B1-BAFC-6CBB97515DC3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VenuMenu project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VenuMenu</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug VenuMenu</string>
+			<key>timeStartedRecording</key>
+			<real>578290567.87621796</real>
+			<key>timeStoppedRecording</key>
+			<real>578290610.60346794</real>
+			<key>title</key>
+			<string>Debug VenuMenu</string>
+			<key>uniqueIdentifier</key>
+			<string>A8D0B66A-21DB-42B1-BAFC-6CBB97515DC3</string>
 		</dict>
 		<key>DBC79C8E-FAFC-43BF-B2DA-3FB5696B67FD</key>
 		<dict>
@@ -101,6 +229,38 @@
 			<string>Debug VenuMenu</string>
 			<key>uniqueIdentifier</key>
 			<string>DBC79C8E-FAFC-43BF-B2DA-3FB5696B67FD</string>
+		</dict>
+		<key>DCDD5122-2806-4859-B26D-780D2C5726F7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DCDD5122-2806-4859-B26D-780D2C5726F7.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VenuMenu project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VenuMenu</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug VenuMenu</string>
+			<key>timeStartedRecording</key>
+			<real>578292372.82107902</real>
+			<key>timeStoppedRecording</key>
+			<real>578292450.83559</real>
+			<key>title</key>
+			<string>Debug VenuMenu</string>
+			<key>uniqueIdentifier</key>
+			<string>DCDD5122-2806-4859-B26D-780D2C5726F7</string>
 		</dict>
 	</dict>
 </dict>

@@ -24,14 +24,20 @@ public class Specialization: Decodable{
      we can just get the price of all of them and add it up later.
      */
     public func GetPrice() -> Float{
-        if(self.Status!)
-        {
-            return self.SpecializationPrice
+//        if(self.Status!)
+//        {
+//            return self.SpecializationPrice
+//        }
+//        else
+//        {
+//            return 0.00
+//        }
+        if let check = self.Status{
+            if(check){
+                return self.SpecializationPrice
+            }
         }
-        else
-        {
-            return 0.00
-        }
+        return 0.00
     }
     
     public func SwitchStatus(){

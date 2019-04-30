@@ -27,12 +27,17 @@ public class Item: Decodable{
             return self.ItemPrice + GetSpecializationTotal()
     }
     
+    public func DisplayPrice()->String{
+        return "$\(GetTotalPrice())"
+    }
+    
     /**
      This will get the value of all the specializations for this item, and return that value.
      */
     public func GetSpecializationTotal() -> Float{
         var total: Float = 0.00
-        Specialization!.forEach{
+        guard let items = Specialization else { return total}
+        items.forEach{
             total += $0.GetPrice()
         }
         return total

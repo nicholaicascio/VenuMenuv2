@@ -9,6 +9,8 @@
 import UIKit
 
 class SpecializationsViewController: UIViewController {
+    //Setup acces to singleton
+    public let orderList = Order.order
 
     var item: Item?
     @IBOutlet weak var nameLabel: UILabel!
@@ -23,8 +25,12 @@ class SpecializationsViewController: UIViewController {
         print(item!.ItemName)
         nameLabel.text = item!.ItemName
         descriptionLabel.text = item!.Description
-        priceLabel.text = "\(item!.ItemPrice)"
+        priceLabel.text = item!.DisplayPrice()
         // Do any additional setup after loading the view.
+    }
+    
+    public func addToOrder(){
+        orderList.AddItem(item: item!)
     }
     
 

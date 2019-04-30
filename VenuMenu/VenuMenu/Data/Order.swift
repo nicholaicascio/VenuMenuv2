@@ -4,8 +4,12 @@
  
  This class is designed to hold an ItemGroup.
  */
+import Foundation
 
-public class Order: Decodable{
+public class Order{
+    // Make this a singleton
+    public static let order = Order()
+    
     public var items: [Item]        //An array of items
     
     public init(){
