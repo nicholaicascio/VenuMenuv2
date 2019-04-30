@@ -27,6 +27,10 @@ public class Item: Decodable{
             return self.ItemPrice + GetSpecializationTotal()
     }
     
+    public func DisplayPrice()->String{
+        return "$\(GetTotalPrice())"
+    }
+    
     /**
      This will get the value of all the specializations for this item, and return that value.
      */
