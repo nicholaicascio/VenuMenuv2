@@ -14,6 +14,13 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     private let menuCaretaker = MenuCaretaker()
     
+    @IBAction func backCamera(_ sender: Any) {
+        performSegue(withIdentifier: "backCamera", sender: nil)
+    }
+    @IBAction func goToOrder(_ sender: Any) {
+        performSegue(withIdentifier: "showOrder", sender: nil)
+    }
+    
     
     private var menus : [Item]{
         return menuCaretaker.items
@@ -38,8 +45,11 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showSpecialization" {
+            //the page we are going to is the "SpecializationsViewController"
             if let specialization = segue.destination as? SpecializationsViewController,
+                //the sender is the "Item"" associated with that specific menus[indexPath.row] of the cell we clicked
                 let selectedItem: Item = sender as? Item {
+                //inside the "SpecializationsViewController" we are setting the "item"
                 specialization.item = selectedItem
 
             }

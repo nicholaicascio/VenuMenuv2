@@ -24,6 +24,7 @@
 		E64544D822764764002EDB88 /* ItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544D022764764002EDB88 /* ItemGroup.swift */; };
 		E64544DA22764764002EDB88 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E64544D222764764002EDB88 /* Data.json */; };
 		E64544DC2277EA77002EDB88 /* SpecializationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544DB2277EA77002EDB88 /* SpecializationsViewController.swift */; };
+		E64544E0227818EA002EDB88 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64544DF227818EA002EDB88 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		E64544D022764764002EDB88 /* ItemGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemGroup.swift; sourceTree = "<group>"; };
 		E64544D222764764002EDB88 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		E64544DB2277EA77002EDB88 /* SpecializationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecializationsViewController.swift; sourceTree = "<group>"; };
+		E64544DF227818EA002EDB88 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				E645449622727BC0002EDB88 /* art.scnassets */,
 				E645449822727BC0002EDB88 /* ViewController.swift */,
 				E645449A22727BC0002EDB88 /* Main.storyboard */,
+				E64544DF227818EA002EDB88 /* OrderViewController.swift */,
 				E64544C422728902002EDB88 /* MenuViewController.swift */,
 				E64544DB2277EA77002EDB88 /* SpecializationsViewController.swift */,
 				E64544C822728990002EDB88 /* Data */,
@@ -305,6 +308,7 @@
 				E64544C522728902002EDB88 /* MenuViewController.swift in Sources */,
 				E645449522727BC0002EDB88 /* AppDelegate.swift in Sources */,
 				E64544D522764764002EDB88 /* Order.swift in Sources */,
+				E64544E0227818EA002EDB88 /* OrderViewController.swift in Sources */,
 				E64544DC2277EA77002EDB88 /* SpecializationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,13 +485,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 234TPA5VBP;
+				DEVELOPMENT_TEAM = 5S34T9FQZJ;
 				INFOPLIST_FILE = VenuMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GIMMShare.VenuMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaicascio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,13 +503,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 234TPA5VBP;
+				DEVELOPMENT_TEAM = 5S34T9FQZJ;
 				INFOPLIST_FILE = VenuMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GIMMShare.VenuMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaicascio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

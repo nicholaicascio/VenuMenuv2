@@ -12,20 +12,15 @@ class SpecializationsViewController: UIViewController {
 
     var item: Item?
     public let orderList = Order.order
+    //inside 'item" the MenuViewController stores the selected item
+    //orderList is the singleton "Order"
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     
-    @IBAction func backButton(_ sender: Any) {
-        performSegue(withIdentifier: "backToMenu", sender: nil)
-    }
-    
     @IBAction func addButton(_ sender: Any) {
         orderList.AddItem(item: item!)
-        for item in orderList.items{
-            print(item.ItemName)
-        }
-        performSegue(withIdentifier: "backToMenu", sender: nil)
+        performSegue(withIdentifier: "orderBack", sender: nil)
     }
     
     override func viewDidLoad() {
