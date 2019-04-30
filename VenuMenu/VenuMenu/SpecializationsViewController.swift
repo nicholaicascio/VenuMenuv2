@@ -11,10 +11,19 @@ import UIKit
 class SpecializationsViewController: UIViewController {
 
     var item: Item?
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBAction func backButton(_ sender: Any) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(item!.ItemName as String)
+        print(item!.ItemName)
+        nameLabel.text = item!.ItemName
+        descriptionLabel.text = item!.Description
+        priceLabel.text = "\(item!.ItemPrice)"
         // Do any additional setup after loading the view.
     }
     
