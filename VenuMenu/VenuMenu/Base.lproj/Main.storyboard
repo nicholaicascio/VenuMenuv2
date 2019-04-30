@@ -154,6 +154,9 @@
                                     <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addButton:" destination="opt-vY-m2j" eventType="touchUpInside" id="OBK-gg-WOe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -183,6 +186,7 @@
                         <outlet property="descriptionLabel" destination="cM2-vU-0pf" id="la0-YB-CWC"/>
                         <outlet property="nameLabel" destination="Twx-pe-2hi" id="Ftv-lQ-Bxj"/>
                         <outlet property="priceLabel" destination="IQH-tX-wzI" id="8Fm-Tf-YYM"/>
+                        <segue destination="nrn-Or-GIS" kind="show" identifier="backToMenu" id="Fe5-Gi-dxU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K3X-f5-NBT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -190,4 +194,7 @@
             <point key="canvasLocation" x="1757.9710144927537" y="27.717391304347828"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Fe5-Gi-dxU"/>
+    </inferredMetricsTieBreakers>
 </document>

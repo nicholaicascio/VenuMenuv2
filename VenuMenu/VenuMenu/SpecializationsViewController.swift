@@ -14,7 +14,12 @@ class SpecializationsViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    
     @IBAction func backButton(_ sender: Any) {
+        performSegue(withIdentifier: "backToMenu", sender: nil)
+    }
+    
+    @IBAction func addButton(_ sender: Any) {
         
     }
     
@@ -27,6 +32,7 @@ class SpecializationsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+
 
     /*
     // MARK: - Navigation
