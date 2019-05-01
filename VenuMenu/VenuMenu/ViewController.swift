@@ -23,7 +23,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         configuration.detectionImages = referenceImages
         let options: ARSession.RunOptions = [.resetTracking, .removeExistingAnchors]
         sceneView.session.run(configuration, options: options)
-        label.text = "Move camera around to detect images"
+        label.text = "Aim your camera at the restaurant sign"
     }
     
     override func viewDidLoad() {
