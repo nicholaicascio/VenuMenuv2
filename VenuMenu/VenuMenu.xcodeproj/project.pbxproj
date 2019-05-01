@@ -8,7 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E62380F2227912870077FEFE /* ResponsesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62380F1227912870077FEFE /* ResponsesViewController.swift */; };
-		E62380F42279173F0077FEFE /* Images in Resources */ = {isa = PBXBuildFile; fileRef = E62380F32279173F0077FEFE /* Images */; };
+		E62380FF227931870077FEFE /* VenuMenuStep6.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380F6227931870077FEFE /* VenuMenuStep6.png */; };
+		E6238100227931870077FEFE /* VenuMenuStep5.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380F7227931870077FEFE /* VenuMenuStep5.png */; };
+		E6238101227931870077FEFE /* VenuMenuStep3.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380F8227931870077FEFE /* VenuMenuStep3.png */; };
+		E6238102227931870077FEFE /* VenuMenuStep2.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380F9227931870077FEFE /* VenuMenuStep2.png */; };
+		E6238103227931870077FEFE /* VenuMenuDirectionImages.psd in Resources */ = {isa = PBXBuildFile; fileRef = E62380FA227931870077FEFE /* VenuMenuDirectionImages.psd */; };
+		E6238104227931870077FEFE /* VenuMenuStep1.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380FB227931870077FEFE /* VenuMenuStep1.png */; };
+		E6238105227931870077FEFE /* VenuMenuStep4.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380FC227931870077FEFE /* VenuMenuStep4.png */; };
+		E6238106227931870077FEFE /* LaunchScreenIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380FD227931870077FEFE /* LaunchScreenIcon.png */; };
+		E6238107227931870077FEFE /* VenuMenuStep7.png in Resources */ = {isa = PBXBuildFile; fileRef = E62380FE227931870077FEFE /* VenuMenuStep7.png */; };
 		E645449522727BC0002EDB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645449422727BC0002EDB88 /* AppDelegate.swift */; };
 		E645449722727BC0002EDB88 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E645449622727BC0002EDB88 /* art.scnassets */; };
 		E645449922727BC0002EDB88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645449822727BC0002EDB88 /* ViewController.swift */; };
@@ -48,7 +56,15 @@
 
 /* Begin PBXFileReference section */
 		E62380F1227912870077FEFE /* ResponsesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesViewController.swift; sourceTree = "<group>"; };
-		E62380F32279173F0077FEFE /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = SOURCE_ROOT; };
+		E62380F6227931870077FEFE /* VenuMenuStep6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VenuMenuStep6.png; path = Images/VenuMenuStep6.png; sourceTree = SOURCE_ROOT; };
+		E62380F7227931870077FEFE /* VenuMenuStep5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VenuMenuStep5.png; path = Images/VenuMenuStep5.png; sourceTree = SOURCE_ROOT; };
+		E62380F8227931870077FEFE /* VenuMenuStep3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VenuMenuStep3.png; path = Images/VenuMenuStep3.png; sourceTree = SOURCE_ROOT; };
+		E62380F9227931870077FEFE /* VenuMenuStep2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VenuMenuStep2.png; path = Images/VenuMenuStep2.png; sourceTree = SOURCE_ROOT; };
+		E62380FA227931870077FEFE /* VenuMenuDirectionImages.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = VenuMenuDirectionImages.psd; path = Images/VenuMenuDirectionImages.psd; sourceTree = SOURCE_ROOT; };
+		E62380FB227931870077FEFE /* VenuMenuStep1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VenuMenuStep1.png; path = Images/VenuMenuStep1.png; sourceTree = SOURCE_ROOT; };
+		E62380FC227931870077FEFE /* VenuMenuStep4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VenuMenuStep4.png; path = Images/VenuMenuStep4.png; sourceTree = SOURCE_ROOT; };
+		E62380FD227931870077FEFE /* LaunchScreenIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreenIcon.png; path = Images/LaunchScreenIcon.png; sourceTree = SOURCE_ROOT; };
+		E62380FE227931870077FEFE /* VenuMenuStep7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VenuMenuStep7.png; path = Images/VenuMenuStep7.png; sourceTree = SOURCE_ROOT; };
 		E645449122727BC0002EDB88 /* VenuMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenuMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E645449422727BC0002EDB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E645449622727BC0002EDB88 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -100,6 +116,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E62380F5227931730077FEFE /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				E62380FD227931870077FEFE /* LaunchScreenIcon.png */,
+				E62380FA227931870077FEFE /* VenuMenuDirectionImages.psd */,
+				E62380FB227931870077FEFE /* VenuMenuStep1.png */,
+				E62380F9227931870077FEFE /* VenuMenuStep2.png */,
+				E62380F8227931870077FEFE /* VenuMenuStep3.png */,
+				E62380FC227931870077FEFE /* VenuMenuStep4.png */,
+				E62380F7227931870077FEFE /* VenuMenuStep5.png */,
+				E62380F6227931870077FEFE /* VenuMenuStep6.png */,
+				E62380FE227931870077FEFE /* VenuMenuStep7.png */,
+			);
+			path = pics;
+			sourceTree = "<group>";
+		};
 		E645448822727BC0002EDB88 = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +155,7 @@
 		E645449322727BC0002EDB88 /* VenuMenu */ = {
 			isa = PBXGroup;
 			children = (
-				E62380F32279173F0077FEFE /* Images */,
+				E62380F5227931730077FEFE /* pics */,
 				E645449422727BC0002EDB88 /* AppDelegate.swift */,
 				E645449622727BC0002EDB88 /* art.scnassets */,
 				E645449822727BC0002EDB88 /* ViewController.swift */,
@@ -276,11 +308,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6238104227931870077FEFE /* VenuMenuStep1.png in Resources */,
+				E6238106227931870077FEFE /* LaunchScreenIcon.png in Resources */,
+				E6238100227931870077FEFE /* VenuMenuStep5.png in Resources */,
+				E6238107227931870077FEFE /* VenuMenuStep7.png in Resources */,
+				E6238105227931870077FEFE /* VenuMenuStep4.png in Resources */,
 				E645449722727BC0002EDB88 /* art.scnassets in Resources */,
 				E64544A122727BC2002EDB88 /* LaunchScreen.storyboard in Resources */,
+				E6238102227931870077FEFE /* VenuMenuStep2.png in Resources */,
+				E62380FF227931870077FEFE /* VenuMenuStep6.png in Resources */,
 				E64544DA22764764002EDB88 /* Data.json in Resources */,
 				E645449E22727BC2002EDB88 /* Assets.xcassets in Resources */,
-				E62380F42279173F0077FEFE /* Images in Resources */,
+				E6238103227931870077FEFE /* VenuMenuDirectionImages.psd in Resources */,
+				E6238101227931870077FEFE /* VenuMenuStep3.png in Resources */,
 				E645449C22727BC0002EDB88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

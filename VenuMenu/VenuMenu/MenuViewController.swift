@@ -17,9 +17,12 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBAction func backCamera(_ sender: Any) {
         performSegue(withIdentifier: "backCamera", sender: nil)
     }
-    @IBAction func goToOrder(_ sender: Any) {
-        performSegue(withIdentifier: "showOrder", sender: nil)
+
+    @IBAction func goToOrderButton(_ sender: Any) {
+        performSegue(withIdentifier: "toOrder", sender: nil)
     }
+    
+    
     
     
     private var menus : [Item]{

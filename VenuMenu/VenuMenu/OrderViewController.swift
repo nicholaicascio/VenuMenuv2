@@ -21,11 +21,7 @@ class OrderViewController: UIViewController, UITableViewDataSource, UITableViewD
         //loading the list into "orders"
     }
     
-    @IBAction func responsesClicked(_ sender: Any) {
-        performSegue(withIdentifier: "showResponses", sender: nil)
-    }
     
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
