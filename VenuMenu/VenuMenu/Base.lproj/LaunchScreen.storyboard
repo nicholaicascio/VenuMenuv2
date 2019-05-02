@@ -17,7 +17,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="x1s-M3-SGo">
+                                <rect key="frame" x="51" y="146" width="312" height="354"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="x1s-M3-SGo" secondAttribute="height" multiplier="52:59" id="xXG-G2-eZK"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venu Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVI-Ei-KLw">
+                                <rect key="frame" x="51" y="492" width="312" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WVI-Ei-KLw" secondAttribute="height" multiplier="104:33" id="IOv-Kj-Nuu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="58"/>
+                                <color key="textColor" red="0.26084666220000002" green="0.54526482389999997" blue="0.88058613990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.26084666220000002" green="0.54526482389999997" blue="0.88058613990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.1444405118" green="0.3019334407" blue="0.48761334200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="x1s-M3-SGo" secondAttribute="bottom" constant="236" id="0iW-be-KsN"/>
+                            <constraint firstItem="WVI-Ei-KLw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="472" id="1ms-wc-JFj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WVI-Ei-KLw" secondAttribute="bottom" constant="145" id="5Hd-Yb-5hY"/>
+                            <constraint firstItem="x1s-M3-SGo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="8Y0-hc-Lwl"/>
+                            <constraint firstItem="WVI-Ei-KLw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="WCz-AE-CbT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x1s-M3-SGo" secondAttribute="trailing" constant="51" id="Y0D-Ik-CEK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WVI-Ei-KLw" secondAttribute="trailing" constant="51" id="o3R-jf-Gze"/>
+                            <constraint firstItem="x1s-M3-SGo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="wCt-aO-qcs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +55,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchScreenIcon.png" width="245.75999450683594" height="245.75999450683594"/>
+    </resources>
 </document>

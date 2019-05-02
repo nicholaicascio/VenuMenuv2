@@ -11,54 +11,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="0gC-Tn-Bkr">
-            <objects>
-                <viewController id="r0U-eE-GoX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WK0-h1-Wq7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreenIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-FD-OJq">
-                                <rect key="frame" x="51" y="71" width="312" height="354"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Venu Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5zk-i9-72R">
-                                <rect key="frame" x="51" y="417" width="312" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="58"/>
-                                <color key="textColor" red="0.26084666220000002" green="0.54526482389999997" blue="0.88058613990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.26084666220000002" green="0.54526482389999997" blue="0.88058613990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="shadowColor" red="0.14444051178450087" green="0.3019334407067274" blue="0.48761334196891193" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="1" height="1"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKo-JG-daD">
-                                <rect key="frame" x="132" y="606" width="150" height="48"/>
-                                <color key="backgroundColor" red="0.83202480629032227" green="0.83581628930323393" blue="0.8471907383419689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="U7f-4w-lfQ"/>
-                                    <constraint firstAttribute="height" constant="48" id="otn-cr-37a"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleShadowColor" red="0.1444405118" green="0.3019334407" blue="0.48761334200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="hKo-JG-daD" secondAttribute="trailing" constant="112" id="2Bd-gv-RhC"/>
-                            <constraint firstItem="hKo-JG-daD" firstAttribute="leading" secondItem="WK0-h1-Wq7" secondAttribute="leadingMargin" constant="112" id="2bY-JV-Sgn"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="hKo-JG-daD" secondAttribute="bottom" constant="82" id="Phe-Q4-4Dm"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="GWH-Ge-bK7"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sgb-dY-QAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-771" y="24"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="z9N-PK-zgJ">
             <objects>
                 <viewController id="Dox-qb-ydg" sceneMemberID="viewController">
@@ -646,7 +598,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreenIcon.png" width="245.75999450683594" height="245.75999450683594"/>
         <image name="VenuMenuStep2.png" width="648" height="1152"/>
         <image name="VenuMenuStep3.png" width="648" height="1152"/>
         <image name="VenuMenuStep4.png" width="648" height="1152"/>
