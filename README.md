@@ -26,6 +26,6 @@ We mostly ran this app on an iPhone 7+ but it should work on most iOS devices.
 * **Nicholai Cascio** - *Front end development* - [Portfolio](https://nicholaicasc.io)
 * **Mario Townes** - *Engineering* - [Portfolio](https://www.mariotownes.com/)
 * **Ryan Wiskirchen** - *UI design* - [Portfolio](https://www.ryanwiskirchen.com/)
-* **Travis Szabolcska** - *Illustration* - [Portfolio](http://travisszabolcska.com/
+* **Travis Szabolcska** - *Illustration* - [Portfolio](http://travisszabolcska.com/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
